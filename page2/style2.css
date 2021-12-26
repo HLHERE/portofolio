@@ -5,10 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
-    background-color: #556b2f;
+    background-color: #3e3754;
 }
+
 .header {
     width: 100%;
     background-color: #3e3754;
@@ -28,8 +28,12 @@ li a {
     color: #fff;
     text-decoration: none;
 }
+ nav ul li a:hover {
+    color: #cfd15e;
+}
 .content {
 padding: 40px;
+background-color: #556b2f;
 }
 .about-me{
     padding: 70px;
@@ -99,6 +103,7 @@ color: #fff;
 .gallery-art {
     text-align: center;
     padding: 50px;
+background-color: #556b2f;
 }
 .gallery-art h2 {
     font-family: 'Secular One', sans-serif;
@@ -108,6 +113,9 @@ color: #fff;
     color: #fff;
     font-size: 16px;
     font-family: 'Patua One', cursive;
+}
+.container-img {
+    background-color: #556b2f;
 }
 figure {
     text-align: center;
@@ -201,19 +209,71 @@ ul.social-icons {
 .fa-spotify:hover {
     background-color: #81b71a;
 } 
-#form-contact {
+.container-form {
     background-color: #3e3754;
-    text-align: center;
+    border-top: 3px solid #fff;
 }
-#form-contact h3 {
+.main {
+    position: absolute;
+    border-radius: 5px;
+    margin-left: 470px;
+    margin-top: 100px;
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #3e3754;
+  }
+  
+  .main h2 {
+    margin: 0 40px;
+    padding: 15px;
     color: #fff;
+    text-transform: uppercase;
+    text-align: center;
     font-family: 'Secular One', sans-serif;
-    padding: 20px;
-}
-fieldset {
-    border: medium none !important;
-    padding: 10px;
-}
-.input {
-    
-}
+  }
+  
+  .main input {
+    padding: 10px 0;
+    margin-bottom: 30px;
+  }
+  
+  .message textarea {
+    height: 80px;
+    padding: 10px 0;
+    margin-bottom: 40px;
+  }
+  
+  .main input,
+  .message textarea {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(163, 163, 163);
+  }
+  
+  .message textarea {
+    margin-bottom: 20px;
+  }
+  
+  .submit [type="submit"] {
+    border-bottom: none;
+    cursor: pointer;
+    background: #cfd15e;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    color: #fff;
+  }
+  
+  .main form div {
+    position: relative;
+  }
+  
+  .submit [type="submit"]:hover {
+    background: #cfd15e;
+    color: #3e3754;
+  }
