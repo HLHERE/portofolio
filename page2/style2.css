@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Secular+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #556b2f;
+}
+.header {
+    width: 100%;
+    background-color: #3e3754;
+    height: 80px;
+}
+.nav-item {
+  list-style: none;
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+}
+
+nav ul li {
+display: inline-block;
+padding: 30px;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+.content {
+padding: 40px;
+}
+.about-me{
+    padding: 70px;
+    text-align: center;
+}
+.about-me h2 {
+    font-family: 'Secular One', sans-serif;
+    color: #fff;  
+    padding: 0 20px; 
+}
+h2 {
+    margin: 12px;
+}
+.about-me p {
+font-weight: 400;
+font-family: 'Patua One', cursive;
+color: #fff;
+}
+
+.hobby {
+    text-align: center;
+    top: 800px;
+    padding: 50px;
+}
+.hobby h2 {
+    font-family: 'Secular One', sans-serif;
+    color: #fff;   
+}
+.hobby p {
+    font-family: 'Patua One', cursive;
+    color: #fff;
+    font-size: 14px;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    background: #3e3754;
+    width: 270px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.images-card {
+    background-color: #fff;
+    height: 180px;
+    margin-bottom: 30px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+.card-1 {
+    background-image: url(../img/jokes-uncomfortable.gif);
+}
+.card-2 {
+    background-image: url(../img/maps.jpeg);
+}
+.card h4 {
+    color: rgb(252, 252, 252);
+    font-family: 'Secular One', sans-serif;
+}
+.card p {
+    color: rgb(255, 255, 255);
+    font-family: 'Patua One', cursive;
+}
+.gallery-art {
+    text-align: center;
+    padding: 50px;
+}
+.gallery-art h2 {
+    font-family: 'Secular One', sans-serif;
+    color: #fff;
+}
+.gallery-art p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Patua One', cursive;
+}
+figure {
+    text-align: center;
+}
+figure img {
+    margin: 10px;
+    border-radius: 20px;
+}
+#contact {
+    color: #fff;
+    font-family: 'Secular One', sans-serif;
+}
+.footer-social-icons {
+    background-color:  #3e3754;
+    padding: 70px;
+    text-align: center;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #3f729b;
+}
+.fa-whatsapp {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-whatsapp:hover {
+    background-color: #4fce5d;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #c4302b;
+}
+
+.fa-github-alt {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github-alt:hover {
+    background-color: #5a32a3;
+}
+.fa-spotify {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-spotify:hover {
+    background-color: #81b71a;
+} 
+#form-contact {
+    background-color: #3e3754;
+    text-align: center;
+}
+#form-contact h3 {
+    color: #fff;
+    font-family: 'Secular One', sans-serif;
+    padding: 20px;
+}
+fieldset {
+    border: medium none !important;
+    padding: 10px;
+}
+.input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}

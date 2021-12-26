@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #556b2f;
+}
+li, a {
+  font-family:  'Secular One', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+.nav_links {
+ list-style: none;
+
+}
+.nav_links li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover {
+color: #3e3754;
+}
+.wrapper {
+  padding: 70px 10%;
+
+}
+.wrapper h1 {
+  font-family:  'Secular One', sans-serif;
+  font-size: 35px;
+  color: #fff;
+}
+.wrapper p {
+  font-family: 'Patua One', cursive;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+.item {
+ padding: 10px ;
+}
+.btn {
+  font-size: 25px;
+  font-family: 'Secular One', sans-serif;
+  background-color: #3e3754;
+  border: none;
+  color: white;
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 50px 50px;
+  border-radius: 50%;
+}
+.hlprofile {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 870px;
+  top: 160px;
+  border-radius: 20px;
+}
